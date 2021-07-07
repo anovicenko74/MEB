@@ -1,7 +1,6 @@
 
 .menu-container {
     margin: 0 auto;
-  line-height:45px;
 }
 
 .menu-mobile {
@@ -80,14 +79,13 @@
 
 .menu > ul > li {
     float: left;
-    
-    padding: 0;
+    padding: .8em .8em;
     margin: 0;
 }
 
 .menu > ul > li a {
     text-decoration: none;
-    padding: .8em 1.2em;
+    padding: 0;
     display: block;
     font-family: 'Montserrat-Regular';
     color: black;
@@ -104,7 +102,7 @@
 .menu > ul > li:hover a {
     color: #356692;
     border-bottom: 2px solid #356692;
-    
+    font-weight: bold;
 }
 
 .menu > ul > li > ul {

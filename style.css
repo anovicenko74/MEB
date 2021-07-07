@@ -14,27 +14,31 @@
 
 
 .backmenu {
-    background: transparent url(menu.png) center center no-repeat; 
+    background: #f8eee3 url(menu.png) center center repeat-x;
+    width: 100%; 
+    height: 150px;
+    padding-top: 25px;
 }
 
 .logo {
-    width: 150px;
-    height: 77px;
+    width: 168px;
+    height: 96px;
     background: transparent url(logo.png) center center no-repeat;
     padding-top: 44px;
 }
 
-.number {
+.menu-container {
+    padding-top: 30px;
+}
 
+.number {
 
 }
 
 .numberandbell {
-    float: right; margin-right: 60px; margin-top: 5px; margin-bottom: 10px;
-}
-
-.numberandbell ul {
-    margin-top: -15px;
+    float: right; 
+    margin-right: 60px; 
+    margin-top: 25px;
 }
 
 .number a {
@@ -44,7 +48,7 @@
 }
 
 .bell {
-    margin-top: -50px !important;
+    text-align: right;
 }
 
 .bell a{
@@ -55,7 +59,14 @@
     border-bottom: 2px solid #4BB304;
 }
 
-
+.leaf {
+    position: absolute;
+    width: 250px;
+    height: 272px;
+    background: transparent url(leaf.png) no-repeat center;
+    bottom: -50px;
+    left: 20px;
+}
 
 .garant {
     font-family: 'Montserrat-Bold';
@@ -69,13 +80,12 @@
     font-family: 'Montserrat-Bold';
     font-size: 16px;
     color: #356692;
-    padding-bottom: 37px;
     list-style-type: none;
     padding-left: 2rem;
     background-position: 0 0;
     background-size: 1.6rem 1.6rem;
     background-repeat: no-repeat;
-    margin-bottom:15px;
+    margin-bottom: 15px;
     background-image: url(firstkrug.png);
 }
 
@@ -294,12 +304,33 @@ textarea.form-input2x3 {
     margin-bottom: 10px;
 }
 
+.obertka {
+    border: 1px solid #4BB304;
+    width: 268px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 30px;
+}
 
-
+.green-btn {
+    color: white;
+    width: 260px;
+    font-size: 13px;
+    background-color: #4BB304;
+    font-family: "Montserrat-Bold";
+    border-radius: 30px;
+    padding: 0 14px;
+    transition: background 0.175s ease-in, color 0.175s ease-in;
+    line-height: 50px;
+    text-decoration: none;
+    display: block;
+}
 
 .form-input {
     font-weight: normal;
-    border:none;
+    border: none;
     color: rgba(255, 255, 255, 0.53);
     width: 260px;
     background: none;
@@ -323,14 +354,6 @@ textarea.form-input2x3 {
     margin-top: 240px;
     margin-bottom: 160px;
 
-}
-
-.obertka {
-    border: 2px solid #4BB304;
-    width: 270px;
-    padding: 2px 2px 2px 2px;
-    border-radius: 30px;
-    text-align: center;
 }
 
 .ob_green {
