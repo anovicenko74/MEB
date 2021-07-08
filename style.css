@@ -137,9 +137,104 @@ textarea.form-input2x3 {
     font-family: 'Montserrat-Bold';
     font-size: 35px;
     color: #7D6A56;
-    text-align: center;
+    text-align: left;
     margin-top:110px;
     margin-bottom: 75px;
+}
+
+.reasons-main {
+    
+}
+
+.reasons-main .reason {
+    width: 20%;
+    float: left;
+    cursor: pointer;
+}
+
+.reasons-main .reason .r-icon {
+    width: 178px;
+    height: 178px;
+    border: 1px solid #ebdbd4;
+    border-radius: 178px;
+    margin: 0 auto;
+}
+
+.reasons-main .reason:hover .r-icon {
+    width: 178px;
+    height: 178px;
+    border: 1px solid #ebdbd4;
+    border-radius: 178px;
+    margin: 0 auto;
+    box-shadow: 0px 3px 12px rgba(0,0,0,.2);
+}
+
+.reasons-main .reason .r-icon .r-icon-bg {
+    width: 140px;
+    height: 140px;
+    background: white;
+    border-radius: 140px;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+.reasons-main .reason .r-icon .r-icon-num {
+    font-family: 'Montserrat-Bold';
+    font-size: 50px;
+    color: rgba(243,229,223,.7);
+    margin-top: -35px;
+}
+
+.reasons-main .reason:nth-child(1) .r-icon .r-icon-bg {
+    background: white url(/i/images/why_main/ico_1_brown.png) no-repeat center center;
+}
+.reasons-main .reason:nth-child(1):hover .r-icon .r-icon-bg {
+    background: white url(/i/images/why_main/ico_1_blue.png) no-repeat center center;
+}
+.reasons-main .reason:nth-child(2) .r-icon .r-icon-bg {
+    background: white url(/i/images/why_main/ico_2_brown.png) no-repeat center center;
+}
+.reasons-main .reason:nth-child(2):hover .r-icon .r-icon-bg {
+    background: white url(/i/images/why_main/ico_2_blue.png) no-repeat center center;
+}
+.reasons-main .reason:nth-child(3) .r-icon .r-icon-bg {
+    background: white url(/i/images/why_main/ico_3_brown.png) no-repeat center center;
+}
+.reasons-main .reason:nth-child(3):hover .r-icon .r-icon-bg {
+    background: white url(/i/images/why_main/ico_3_blue.png) no-repeat center center;
+}
+.reasons-main .reason:nth-child(4) .r-icon .r-icon-bg {
+    background: white url(/i/images/why_main/ico_4_brown.png) no-repeat center center;
+}
+.reasons-main .reason:nth-child(4):hover .r-icon .r-icon-bg {
+    background: white url(/i/images/why_main/ico_4_blue.png) no-repeat center center;
+}
+.reasons-main .reason:nth-child(5) .r-icon .r-icon-bg {
+    background: white url(/i/images/why_main/ico_5_brown.png) no-repeat center center;
+}
+.reasons-main .reason:nth-child(5):hover .r-icon .r-icon-bg {
+    background: white url(/i/images/why_main/ico_5_blue.png) no-repeat center center;
+}
+
+.reasons-main .reason .r-text, .reasons-main .reason .r-text-hidden {
+    text-align: center;
+    margin-top: 10px;
+}
+.reasons-main .reason .r-text {
+    display: block;
+}
+
+.reasons-main .reason .r-text-hidden {
+    color: #356692;
+    font-weight: bold;
+    display: none;
+}
+
+.reasons-main .reason:hover .r-text {
+    display: none;
+}
+
+.reasons-main .reason:hover .r-text-hidden {
+    display: block;
 }
 
 .bigkrug {
@@ -174,7 +269,6 @@ textarea.form-input2x3 {
     font-size: 16px;
     color: #272727;
     margin-top: 70px;
-    margin-left: 110px;
     margin-bottom: 110px;
 }
 
