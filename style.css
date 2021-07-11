@@ -137,7 +137,7 @@ textarea.form-input2x3 {
     font-family: 'Montserrat-Bold';
     font-size: 35px;
     color: #7D6A56;
-    text-align: left;
+    text-align: center;
     margin-top:110px;
     margin-bottom: 75px;
 }
@@ -218,6 +218,7 @@ textarea.form-input2x3 {
 .reasons-main .reason .r-text, .reasons-main .reason .r-text-hidden {
     text-align: center;
     margin-top: 10px;
+    font-family: 'Montserrat-Regular';
 }
 .reasons-main .reason .r-text {
     display: block;
@@ -237,16 +238,63 @@ textarea.form-input2x3 {
     display: block;
 }
 
-.bigkrug {
-    width: 214px;
-    height: 215px;
-    background: transparent url(bigkrug.png) center center no-repeat;
+
+.competitor-main {
+    
+    
 }
 
-.bigkrug2 {
-    width: 214px;
-    height: 215px;
-    background: transparent url(bigkrug2.png) center center no-repeat;
+.competitor-main .competitor {
+    width: 16%;
+    float: left;
+}
+
+.competitor-main .competitor .c-icon {
+    width: 165px;
+    height: 165px;
+    border: 1px solid #ebdbd4;
+    border-radius: 178px;
+    margin: 0 auto;
+    box-shadow: 0px 3px 12px #EADAD3;
+}
+
+.competitor-main .competitor .c-text {
+   text-align: center;
+   margin-top: 10px;
+   font-family: 'Montserrat-Regular';
+}
+
+.competitor-main .competitor .c-icon .c-icon-bg {
+    width: 140px;
+    height: 140px;
+    background: transparent url(c-bg1.png) center center no-repeat;
+    border-radius: 140px;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+
+.competitor-main .competitor:nth-child(1) .c-icon .c-icon-bg {
+    background: white url(/i/images/competitor-main/c-bg1.png) no-repeat center center;
+}
+
+.competitor-main .competitor:nth-child(2) .c-icon .c-icon-bg {
+    background: white url(/i/images/competitor-main/c-bg2.png) no-repeat center center;
+}
+
+.competitor-main .competitor:nth-child(3) .c-icon .c-icon-bg {
+    background: white url(/i/images/competitor-main/c-bg3.png) no-repeat center center;
+}
+
+.competitor-main .competitor:nth-child(4) .c-icon .c-icon-bg {
+    background: white url(/i/images/competitor-main/c-bg4.png) no-repeat center center;
+}
+
+.competitor-main .competitor:nth-child(5) .c-icon .c-icon-bg {
+    background: white url(/i/images/competitor-main/c-bg5.png) no-repeat center center;
+}
+
+.competitor-main .competitor:nth-child(6) .c-icon .c-icon-bg {
+    background: white url(/i/images/competitor-main/c-bg6.png) no-repeat center center;
 }
 
 .five {
@@ -353,11 +401,17 @@ textarea.form-input2x3 {
     border: 2px solid #EBD9D2;
     border-radius: 10px; 
     box-shadow: 0 10px 0 #F4E5DF;
-    overflow:hidden
+    overflow:hidden;
+        width: 28%;
+        height: px;
+        float: left;
+        margin: 0 20px;
 }
 
 .imgramka {
-    margin-left: -35px;
+    margin-left: -65px;
+    float: left;
+    
 }
 
 .plan {
@@ -422,6 +476,20 @@ textarea.form-input2x3 {
     display: block;
 }
 
+.blue-btn {
+    color: white;
+    width: 260px;
+    font-size: 13px;
+    background-color: #356692;
+    font-family: "Montserrat-Bold";
+    border-radius: 30px;
+    padding: 0 14px;
+    transition: background 0.175s ease-in, color 0.175s ease-in;
+    line-height: 50px;
+    text-decoration: none;
+    display: block;
+}
+
 .form-input {
     font-weight: normal;
     border: none;
@@ -445,7 +513,7 @@ textarea.form-input2x3 {
 }
 
 .first {
-    margin-top: 240px;
+    
     margin-bottom: 160px;
 
 }
@@ -530,6 +598,7 @@ textarea.form-input {
     height: 50px;
     background-color: white;
     padding-left: 24px;
+    box-shadow: 0px 3px 12px rgba(0,0,0,.2)
 }
 textarea.name-input {
     height: 165px;
@@ -558,10 +627,8 @@ textarea.name-input {
     background: transparent url(mat.png) center center no-repeat;
 }
 
-.v1 {
-    width: 375px;
-    height: 240px;
-    background: transparent url(v1.png) center center no-repeat;
+v1-img {
+    
 }
 
 .wordin {
@@ -613,7 +680,6 @@ textarea.name-input {
     color: #7D6A56;
     text-align: left;
     margin-bottom: 35px;
-    margin-top: 110px;
 }
 
 .skr {
@@ -794,6 +860,7 @@ textarea.button-cons {
 
 .space10 {width: 100%; height: 10px;}
 .space20 {width: 100%; height: 20px;}
+.space30 {width: 100%; height: 30px;}
 .space50 {width: 100%; height: 50px;}
 .space75 {width: 100%; height: 75px;}
 .space100 {width: 100%; height: 100px;}
