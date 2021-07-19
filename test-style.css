@@ -1,0 +1,193 @@
+@font-face{
+    font-family: 'Montserrat-Bold';
+    src: url('Montserrat-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Montserrat-Regular';
+    src: url('11952.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Roboto-Medium';
+    src: url('3964.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face{
+    font-family: 'Myriad-Pro';
+    src: url('.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.left-big-brown-one {
+    font-family: 'Montserrat-Bold';
+    font-size: 35px;
+    color: #7D6A56;
+    text-align: left;
+    margin-bottom: 75px;
+    margin-top: 110px;
+}
+
+.left-big-brown-with {
+    font-family: 'Montserrat-Bold';
+    font-size: 35px;
+    color: #7D6A56;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 110px;
+}
+
+.pod_lbb {
+    font-family: 'Montserrat-Bold';
+    font-size: 18px;
+    color: #7D6A56;
+    text-align: left;
+    margin-bottom: 75px;
+}
+
+.left-sm-brown {
+    font-family: 'Montserrat-Regular';
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.zakazbuttonmargin {
+    margin-top: -15px;
+}
+
+.name-input {
+    border: none;
+    font-weight: normal;
+    border: 2px solid #EBD9D2;
+    border-radius: 30px;
+    color: black;
+    width: 100%;
+    font-size: 14px;
+    height: 30px;
+    text-decoration: none;
+    font-family: 'Montserrat-Regular';
+    width: 270px;
+    height: 50px;
+    background-color: white;
+    padding-left: 24px;
+    box-shadow: 0px 3px 12px rgba(0,0,0,.2)
+}
+textarea.name-input {
+    height: 165px;
+    width: 5px;
+}
+
+.name-input:hover {
+    background-color: white;
+    color: #272727;;
+}
+
+
+.name-input::-webkit-input-placeholder { color: #272727); }
+
+.name-input::-webkit-input-placeholder { color:#272727; font-weight: 100;}
+
+.name-input{outline:none;}
+
+.name-input {outline:none;}
+.name-input:-moz-placeholder { color: #272727; }
+.name-input::-webkit-input-placeholder { color: #272727; font-weight: 100; }
+
+.blue-btn {
+    color: white;
+    width: 260px;
+    font-size: 13px;
+    background-color: #356692;
+    font-family: "Montserrat-Bold";
+    border-radius: 30px;
+    padding: 0 14px;
+    transition: background 0.175s ease-in, color 0.175s ease-in;
+    line-height: 50px;
+    text-decoration: none;
+    display: block;
+}
+
+.form-calc {
+    margin-right: 30px;
+}
+
+.form-calc-left{
+    float: left;
+}
+
+.calc-forms-bottom {
+    margin-top: 50px
+}
+.blue-calc-form {
+}
+
+.form-file {
+    margin: 15px 125px 0 0;
+}
+
+.file {
+   padding-left: 20px;
+}
+    .space10 {width: 100%; height: 10px;}
+    .space20 {width: 100%; height: 20px;}
+    .space30 {width: 100%; height: 30px;}
+    .space50 {width: 100%; height: 50px;}
+    .space75 {width: 100%; height: 75px;}
+    .space100 {width: 100%; height: 100px;}
+    .space120 {width: 100%; height: 120px;}
+    .space150 {width: 100%; height: 150px;}
+    .spacecalc {margin-top: 115px;}
+    .space250b{margin-bottom: 250px;}
+    .space100b{margin-bottom: 100px;}
+    .space30b {margin-bottom: 30px;}
+    .space100t{margin-top: 100px;}
+    .space30t {margin-top: 30px;}
+
+    @media only screen and (max-width: 1200px) {
+        
+    }
+    
+    
+    @media only screen and (max-width: 992px) {
+        
+    }
+
+
+
+    @media only screen and (max-width: 768px) {
+
+        .color-block {
+            float: left;
+            width: 27%;
+            margin: 15px
+        }
+
+        .zone {
+            font-size: 15px;
+        }
+
+        .color-block:nth-child(5) {
+
+        }
+    }
+
+    @media only screen and (max-width: 576px) {
+
+
+        .color-block {
+            float: left;
+            width: 38%;
+            margin: 15px;
+        }
+
+    }
+
