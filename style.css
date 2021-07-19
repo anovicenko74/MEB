@@ -396,6 +396,11 @@ textarea.form-input2x3 {
 
 }
 
+.number-block {
+    float: left;
+    width: 33%;
+}
+
 .spacebg-w {
     padding-top: 50px;
     margin-bottom: 15px;
@@ -938,9 +943,14 @@ textarea.button-cons {
     background: transparent url(num.png) center center no-repeat;
 }
 
+.num-border-top {
+    border-top: 1px solid #F9E6E0;
+}
+
 .withnum {
     font-family: 'Montserrat-Regular';
     font-size: 16px;
+    
 
 }
 
@@ -1149,6 +1159,7 @@ textarea.button-cons {
 @media only screen and (max-width: 1200px) {
     .competitor-main .competitor {
         width: 33%;
+        margin: 15px 0;
     }
 
     .block-in-three {
@@ -1186,7 +1197,7 @@ textarea.button-cons {
 @media only screen and (max-width: 992px) {
     .reasons-main .reason {
         width: 50%;
-
+        margin: 15px 0;
     }
 
 
