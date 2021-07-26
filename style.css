@@ -1385,13 +1385,183 @@ textarea.button-cons {
     font-size: 13px;
 }
 
-
-
-
 .square-green-btn {
     border-radius: 7px;
     margin: 50px 0 70px 0;
 }
+
+.modal_window {
+    width: 360px;
+    border-radius: 8px;
+    background: #FDFBFA;
+}
+
+.modal_window .modal_text {
+    font-family: 'Montserrat-Regular';
+    font-size: 14px;
+    padding: 70px 40px 50px 40px;
+}
+
+.modal_window .modal_text .header {
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.modal_window .modal_text .modal-block-input {
+    margin-top: 45px;
+}
+
+.modal_window .modal_text .modal-block-input input {
+    font-size: 14px;
+    text-align:left;
+    height: 55px;
+    border-radius: 8px;
+    border: 1px solid #EAD9D2;
+    box-shadow: 0px 0px 12px #EAD9D2;
+    width: 100%;
+    padding-left: 35px;
+    text-decoration: none;
+
+}
+.modal_window .modal_text .modal-block-input input::-webkit-input-placeholder { color: #272727); }
+.modal_window .modal_text .modal-block-input input::-webkit-input-placeholder { color:#272727; font-weight: 100;}
+.modal_window .modal_text .modal-block-input input{outline:none;}
+.modal_window .modal_text .modal-block-input input:-moz-placeholder { color: #272727; }
+.modal_window .modal_text .modal-block-input input::-webkit-input-placeholder { color: #272727; font-weight: 100; }
+
+
+
+
+
+.modal_window .modal_text .modal-block-input textarea {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    border: 1px solid #EAD9D2;
+    box-shadow: 0px 0px 12px #EAD9D2;
+    padding-left: 35px;
+    text-decoration: none;
+    outline:none;
+}
+.modal_window .modal_text .modal-block-input textaera::-webkit--placeholder { color: #272727); }
+.modal_window .modal_text .modal-block-input textaera::-webkit-input-placeholder { color:#272727; font-weight: 100;}
+.modal_window .modal_text .modal-block-input textaera:-moz-placeholder { color: #272727; }
+.modal_window .modal_text .modal-block-input textaera::-webkit-input-placeholder { color: #272727; font-weight: 100; }
+
+.modal_window .modal_text .modal-block-input .grade-block {
+    border-radius: 8px;
+    border: 1px solid #EAD9D2;
+    box-shadow: 0px 0px 12px #EAD9D2;
+
+}
+
+.modal_window .modal_text .modal-block-input .grade-block .grade-block-text {
+    padding: 20px 50px 0px 35px;
+    text-align:left;
+}
+
+.modal_window .modal_text .modal-block-input .file{
+   margin-left: 15px;
+    text-align: left;
+
+}
+
+.modal_window .modal_text .modal-block-input .file a {
+    color: black;
+    text-decoration: none;
+    text-align: left;
+    font-size: 12px;
+    
+}
+
+.modal_window .modal_text .offer {
+    color: #B5B5B5;
+    margin: 0 !important;
+}
+.modal_window .modal_text .offer a {
+    border-bottom: 1px solid #B5B5B5;
+    cursor: pointer;
+    text-decoration: none;
+    color: #B5B5B5;
+}
+
+.modal_window .modal_text .modal-block-input .modal-send {
+    color: white;
+    background-color: #4BB304;
+    border-radius: 8px;
+    text-align: center;
+    width: 100%;
+    font-family: "Montserrat-Bold";
+    padding: 0 14px;
+    transition: background 0.175s ease-in, color 0.175s ease-in;
+    line-height: 50px;
+    text-decoration: none;
+    display: block;
+    
+}
+
+.green-back {
+    background: transparent url(green-back.png) center center no-repeat;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    margin: -15px 0 0 340px;
+    cursor: pointer;
+}
+
+
+.rating-area {
+	overflow: hidden;
+	width: 100%;
+	margin: 5px 0px 15px -60px;
+}
+.rating-area:not(:checked) > input {
+	display: none;
+}
+.rating-area:not(:checked) > label {
+	float: right;
+	width: 32px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 32px;
+	line-height: 32px;
+	color: #BDB3AA;
+	text-shadow: 1px 1px #bbb;
+}
+.rating-area:not(:checked) > label:before {
+	content: '★';
+}
+.rating-area > input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+	color: #7D6957;
+}
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px goldenrod;
+}
+.rate-area > label:active {
+	position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 1200px) {
     .competitor-main .competitor {
