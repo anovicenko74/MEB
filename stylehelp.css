@@ -22,19 +22,6 @@ body {
     margin-bottom: 40px;
 }
 
-.bar {
-    margin-bottom: 40px
-}
-
-.helpful_header .bar a {
-    font-family: 'Montserrat-Bold' !important;
-    text-align: right!important;
-    font-size: 13px !important;
-    color: #4BB304 !important;
-    border-bottom: 2px solid #4BB304;
-    cursor: pointer;
-   
-}
 
 .form7 {
 
@@ -47,7 +34,7 @@ body {
 .form7 .btn .btn_brown {
     width: auto;
     padding: 0 25px 0 25px;
-    
+
 }
 
 .helpful_img {
@@ -63,7 +50,10 @@ body {
 }
 
 .helpful_block_text {
-    padding: 30px 30px 50px 30px;
+    margin: 30px 30px 20px 30px;
+    overflow: hidden;
+    height: 150px;
+
 }
 
 .helpful_block_text h2 {
@@ -75,8 +65,8 @@ body {
 .helpful_block_text a {
     font-family: 'Montserrat-Bold';
     color: #00B400;
-    float: right;
-    margin-top: 15px;
+    
+    
 }
 
 
@@ -110,12 +100,37 @@ body {
     color: #00B400;
 }
 
+.block-in-three-helpful {
+    width: 30%;
+    float: left;
+    margin: 15px;
+    height: 450px;
+    margin-bottom: 15px;
+
+
+}
+
 @media only screen and (max-width: 1200px) { 
+
+    .block-in-three-helpful {
+        width: 44%;
+        float: left;
+        margin: 15px;
+    }
 }
 
 @media only screen and (max-width: 992px) {
     .helpful_block {
         margin-top: 0px;
+    }
+
+    .helpful_block_text {
+        height: 130px;
+        margin: 20px 20px 30px 20px;
+    }
+
+    .helpful_block_text a {
+        
     }
 
     .helpful_img {
@@ -129,6 +144,21 @@ body {
     }
 }
 
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
 
-@media only screen and (max-width: 576px) {}
+    .block-in-three-helpful {
+        width:100%;
+        margin: 15px 0;
+    }
+
+    .helpful_block_text {
+        height: 90px;
+        margin: 30px 30px 40px 30px;
+    }
+
+    .helpful_block_text a {
+       
+       
+    }
+
+    @media only screen and (max-width: 576px) {}
