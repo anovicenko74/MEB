@@ -27,15 +27,110 @@
     font-style: normal;
 }
 
+body 
+{background-color: blue !important;}
+
+.ramka {
+    background-color:white;
+    border: 2px solid #EBD9D2;
+    border-radius: 10px; 
+    box-shadow: 0px 10px 0 #F4E5DF;
+    overflow:hidden; 
+}
+
+
+.review-bg {
+    background-color: white;
+}
+
+.review-bg .review{
+    padding: 80px 100px 70px 100px;
+}
+
+.ava .a-icon {
+    width: 165px;
+    height: 165px;
+    border: 1px solid #ebdbd4;
+    border-radius: 178px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 12px #F3DFD9;
+}
+
+.ava .icon .a-icon-bg {
+    width: 140px;
+    height: 140px;
+    background: transparent url(c-bg1.png) center center no-repeat;
+    border-radius: 140px;
+    margin: 0 auto;
+    margin-top: 12px;
+}
 
 
 
+.ava .a-text {
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Montserrat-Regular';
+}
 
-.krug {
-    width: 30px;
-    height: 30px;
-    border-radius: 50px;
-    background-color: green;
+.ava .a-text .a-text-name{
+    font-size: 18px;
+    font-family: 'Montserrat-Bold';
+    color: #006695;
+}
+
+.ava .a-text .vk a {
+    font-size: 16px;
+    font-family: 'Montserrat-Regular';
+    color: #006695;
+    cursor: pointer;   
+}
+
+.ava .a-text .vk a:hover {
+    color: #006695;
+}
+
+
+.rating-area {
+    overflow: hidden;
+    width: 100%;
+    margin: 5px 0px 15px -60px;
+    text-align: center;
+}
+.rating-area:not(:checked) > input {
+    display: none;
+}
+.rating-area:not(:checked) > label {
+    float: right;
+    width: 32px;
+    padding: 0;
+    cursor: pointer;
+    font-size: 32px;
+    line-height: 32px;
+    color: #BDB3AA;
+    text-shadow: 1px 1px #bbb;
+}
+.rating-area:not(:checked) > label:before {
+    content: '★';
+}
+.rating-area > input:checked ~ label {
+    color: gold;
+    text-shadow: 1px 1px #c60;
+}
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+    color: #7D6957;
+}
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+    color: gold;
+    text-shadow: 1px 1px goldenrod;
+}
+.rate-area > label:active {
+    position: relative;
 }
 
 
@@ -62,51 +157,42 @@
 
 
 
+@media only screen and (max-width: 1200px) {
+
+}
+
+
+@media only screen and (max-width: 992px) {
+
+}
 
 
 
+@media only screen and (max-width: 768px) {
 
-
-
-
-
-
-    @media only screen and (max-width: 1200px) {
-        
-    }
-    
-    
-    @media only screen and (max-width: 992px) {
-        
-    }
-
-
-
-    @media only screen and (max-width: 768px) {
-
-        .color-block {
-            float: left;
-            width: 27%;
-            margin: 15px
-        }
-
-        .zone {
-            font-size: 15px;
-        }
-
-        .color-block:nth-child(5) {
-
-        }
+    .color-block {
+        float: left;
+        width: 27%;
+        margin: 15px
     }
 
-    @media only screen and (max-width: 576px) {
+    .zone {
+        font-size: 15px;
+    }
 
-
-        .color-block {
-            float: left;
-            width: 38%;
-            margin: 15px;
-        }
+    .color-block:nth-child(5) {
 
     }
+}
+
+@media only screen and (max-width: 576px) {
+
+
+    .color-block {
+        float: left;
+        width: 38%;
+        margin: 15px;
+    }
+
+}
 

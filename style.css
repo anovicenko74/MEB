@@ -192,14 +192,6 @@ textarea.form-input2x3 {
     margin: 0 auto;
 }
 
-.reasons-main .reason:hover .r-icon {
-    width: 178px;
-    height: 178px;
-    border: 1px solid #ebdbd4;
-    border-radius: 178px;
-    margin: 0 auto;
-    box-shadow: 0px 3px 12px rgba(0,0,0,.2);
-}
 
 .reasons-main .reason .r-icon .r-icon-bg {
     width: 140px;
@@ -262,13 +254,6 @@ textarea.form-input2x3 {
     display: none;
 }
 
-.reasons-main .reason:hover .r-text {
-    display: none;
-}
-
-.reasons-main .reason:hover .r-text-hidden {
-    display: block;
-}
 
 
 .competitor-main {
