@@ -44,7 +44,11 @@ body
 }
 
 .review-bg .review{
-    padding: 80px 100px 70px 100px;
+    padding: 120px 100px 70px 100px;
+}
+
+.ava {
+    margin-top: -35px;
 }
 
 .ava .a-icon {
@@ -90,17 +94,44 @@ body
     color: #006695;
 }
 
+.review-text {
+    font-family: 'Montserrat-Regular';
+}
 
-.rating-area {
+.review-text .header {
+    font-size: 16px;
+}
+
+.review-text .default {
+    font-size: 18px;
+}
+
+.review-text > a {
+    cursor: pointer;
+    color: #0000EE !important;
+    border-bottom: 1px solid #0000EE;
+}
+
+.review-text > a:hover {
+    color: #0D6EFD !important;
+    border-bottom: 1px solid #0D6EFD;
+}
+
+.review-text .ps {
+    color: #9A9A9A;
+}
+
+
+.rating-area-review {
     overflow: hidden;
     width: 100%;
-    margin: 5px 0px 15px -60px;
+    margin: 0px 0px 0px -93px;
     text-align: center;
 }
-.rating-area:not(:checked) > input {
+.rating-area-review:not(:checked) > input {
     display: none;
 }
-.rating-area:not(:checked) > label {
+.rating-area-review:not(:checked) > label {
     float: right;
     width: 32px;
     padding: 0;
@@ -110,22 +141,22 @@ body
     color: #BDB3AA;
     text-shadow: 1px 1px #bbb;
 }
-.rating-area:not(:checked) > label:before {
+.rating-area-review:not(:checked) > label:before {
     content: '★';
 }
-.rating-area > input:checked ~ label {
+.rating-area-review > input:checked ~ label {
     color: gold;
     text-shadow: 1px 1px #c60;
 }
-.rating-area:not(:checked) > label:hover,
-.rating-area:not(:checked) > label:hover ~ label {
+.rating-area-review:not(:checked) > label:hover,
+.rating-area-review:not(:checked) > label:hover ~ label {
     color: #7D6957;
 }
-.rating-area > input:checked + label:hover,
-.rating-area > input:checked + label:hover ~ label,
-.rating-area > input:checked ~ label:hover,
-.rating-area > input:checked ~ label:hover ~ label,
-.rating-area > label:hover ~ input:checked ~ label {
+.rating-area-review > input:checked + label:hover,
+.rating-area-review > input:checked + label:hover ~ label,
+.rating-area-review > input:checked ~ label:hover,
+.rating-area-review > input:checked ~ label:hover ~ label,
+.rating-area-review > label:hover ~ input:checked ~ label {
     color: gold;
     text-shadow: 1px 1px goldenrod;
 }

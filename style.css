@@ -1349,9 +1349,9 @@ textarea.button-cons {
 }
 
 .article_block_text_sidebar {
-    margin:30px 30px 30px 30px;
+    margin:30px 30px 0px 30px;
     overflow: hidden;
-    height: 145px;
+    height: 125px;
 }
 
 .article_block_text_sidebar h2 {
@@ -1359,15 +1359,18 @@ textarea.button-cons {
     font-size: 16px;
 }
 
-.article_block_text_sidebar a {
+.articletextsidebar a {
     font-family: 'Montserrat-Bold';
     color: #00B400;
     font-size: 13px;
+    float: right;
+    margin: 0px 30px 30px 0px;
 }
 
 .article_block_text_sidebar .articletextsidebar {
     font-family:'Montserrat-Regular';
     font-size: 13px;
+    overflow: hidden;
 }
 
 .square-green-btn {
@@ -1629,8 +1632,12 @@ textarea.button-cons {
     }
 
     .article_block_text_sidebar {
-        margin:30px 0px 30px 20px;
+        margin:30px 0px 10px 20px;
+        height:195px;
+    }
 
+    .article_block_text_sidebar .articletextsidebar {
+       
     }
 
     .how-we-work .one-block {
@@ -1778,7 +1785,7 @@ textarea.button-cons {
     }
 
     .article_block_text_sidebar {
-        margin:30px 0px 30px 10px;
+        margin:30px 0px 10px 10px;
 
     }
 
@@ -1788,8 +1795,9 @@ textarea.button-cons {
 
     .article_block_text_sidebar .articletextsidebar {
         font-size: 12px;
+        
     }
-    .article_block_text_sidebar a {
+    .articletextsidebar a {
         font-size: 12px;
     }
 
@@ -1896,8 +1904,8 @@ textarea.button-cons {
     }
 
     .article_block_text_sidebar {
-        margin:30px 0px 30px 5px;
-        height: 140px;
+        margin:10px 0px 10px 5px;
+        height: 80px;
     }
 
     .article_block_text_sidebar h2 {
@@ -1906,10 +1914,12 @@ textarea.button-cons {
 
     .article_block_text_sidebar .articletextsidebar {
         font-size: 8px;
+        height: 40px;
     }
 
-    .article_block_text_sidebar a {
+    .articletextsidebar a {
         font-size: 10px;
+        margin: 0px 10px 30px 0px;
     }
 
     .article h1 {
