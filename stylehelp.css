@@ -1,11 +1,11 @@
-@font-face{
+@font-face {
     font-family: 'Montserrat-Bold';
     src: url('Montserrat-Bold.ttf');
     font-weight: normal;
     font-style: normal;
 }
 
-@font-face{
+@font-face {
     font-family: 'Montserrat-Regular';
     src: url('11952.ttf');
     font-weight: normal;
@@ -22,10 +22,7 @@ body {
     margin-bottom: 40px;
 }
 
-
-.form7 {
-
-}
+.form7 {}
 
 .form7 .btn {
     padding: 0 1px 0 0;
@@ -34,32 +31,25 @@ body {
 .form7 .btn .btn_brown {
     width: auto;
     padding: 0 25px 0 25px;
-
 }
 
-.helpful_img {
-
-}
+.helpful_img {}
 
 .helpful_block {
     margin-top: 40px;
 }
 
-.helpful_block .ramka {
-
-}
+.helpful_block .ramka {}
 
 .helpful_block_text {
     margin: 30px 30px 10px 30px;
     overflow: hidden;
     height: 110px;
-
 }
 
 .helpful_block_text h2 {
     font-family: 'Montserrat-Bold';
     font-size: 16px;
-
 }
 
 .helpfultext a {
@@ -103,12 +93,9 @@ body {
     margin: 15px;
     height: 450px;
     margin-bottom: 15px;
-
-
 }
 
-@media only screen and (max-width: 1200px) { 
-
+@media only screen and (max-width: 1200px) {
     .block-in-three-helpful {
         width: 44%;
         float: left;
@@ -120,55 +107,41 @@ body {
     .helpful_block {
         margin-top: 0px;
     }
-
     .helpful_block_text {
         height: 130px;
         margin: 20px 20px 10px 20px;
     }
-
-    .helpfultext a {
-        
-    }
-
+    .helpfultext a {}
     .helpful_img {
         width: 100%;
         height: auto;
     }
-
     .helpful_block .ramka {
         margin-top: 30px;
         width: 100%
     }
-
     helpful_block_text {
         height: 140px;
     }
 }
 
 @media only screen and (max-width: 768px) {
-
     .block-in-three-helpful {
-        width:100%;
+        width: 100%;
         margin: 15px 0;
     }
-
     .helpful_block_text {
         height: 90px;
         margin: 30px 30px 10px 30px;
     }
-
-    .helpfultext a {
-       
-    }
-
+    .helpfultext a {}
     @media only screen and (max-width: 576px) {
         .helpful_block_text {
             height: 90px;
             margin: 30px 10px 10px 10px;
         }
-    
         .helpfultext a {
             margin: 0px 20px 10px 10px;
         }
-        }
     }
+}

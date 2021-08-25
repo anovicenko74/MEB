@@ -1,6 +1,6 @@
 
 .menu-container {
-    margin: 0 auto;
+    margin-left: 25px;
 }
  
 .menu-mobile {
@@ -36,7 +36,7 @@
     top: 40px;
 }
 .menu-mobile.orthodox .burger:before {
-    background: white;
+    background:transparent;
 }
 
 .menu-mobile.orthodox .burger {
@@ -64,7 +64,8 @@
     
     /* IF .menu position=relative -> ul = container width, ELSE ul = 100% width */
     box-sizing: border-box;
-    overflow-y: auto;
+	overflow-y: auto;
+
 }
 
 .menu > ul:before,
@@ -79,23 +80,27 @@
 
 .menu > ul > li {
     float: left;
-    padding: .8em .8em;
+    padding: .8em .6em;
     margin: 0;
 }
 
-.menu > ul > li a {
+.menu > ul > li > a {
     text-decoration: none;
     padding: 0;
     display: block;
     font-family: 'Montserrat-Regular';
     color: black;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 @media all and (max-width: 1200px) {
+
+	.menu-container {
+		margin-left: 0px;
+	}
     .menu > ul > li a {
-        font-size: 16px;
-        padding: .8em 1.3em;
+		padding: .8em 0em;
+		font-size: 9px;
     }
 }
 
@@ -209,7 +214,11 @@ Mobile style's
     .menu li a {
         font-size: 28px !important;
      
-    }
+	}
+	
+	.menu > ul {
+		background-color: #F8EEE3;
+	}
     
     .menu li.small a {
         font-size: 21px !important;
@@ -234,7 +243,7 @@ Mobile style's
     }
     
     .right-insta {
-        color: #5151d3;
+        color: #356692;
         font-size: 15px !important;
         margin-top: 9px;
         float: left;
@@ -265,8 +274,8 @@ Mobile style's
     .menu > ul > li a {
        
         text-align: left;
-        font-family: 'Helvetica Light';
-        color: #5151d3;
+        font-family: 'Montserrat-Regular';
+        color:black;
         width: 100%;
         display: block;
         border-bottom: 1px solid #F7F7F7;
